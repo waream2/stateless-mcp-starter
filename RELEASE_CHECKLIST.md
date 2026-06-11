@@ -1,6 +1,6 @@
 # Release Checklist
 
-Use this before sharing the starter publicly or publishing an npm package. Do not publish or tag a release unless that action is explicitly requested.
+Use this before publishing a new npm version, pushing a release tag, or creating a GitHub release.
 
 ## Local Verification
 
@@ -30,6 +30,6 @@ Use this before sharing the starter publicly or publishing an npm package. Do no
 
 ## Release Guardrails
 
-- Do not publish to npm without explicit approval.
-- Do not create a GitHub release without explicit approval.
-- Do not push tags without explicit approval.
+- Only maintainers should publish npm packages.
+- Only tag releases after the package contents and generated starter have been reviewed.
+- Keep the GitHub release notes focused on user-visible changes and migration notes.
